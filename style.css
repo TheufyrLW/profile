@@ -1,0 +1,111 @@
+:root {
+  font-size: 14px;
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+	min-height: 100dvh;
+}
+
+body {
+  font-family: "Love Ya Like A Sister", cursive;
+	line-height: 1.5;
+  background-color: #FCECD8;
+  color: #6E3511;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: "Playpen Sans", cursive;
+  color: #597928;
+  font-size: 3rem;
+	line-height: 01;
+}
+
+h1 {
+  margin: 1rem auto 1.5rem auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #8A0099;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+a:hover {
+  color: #597928;
+}
+.icon-links {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-links img {
+  padding: 0 1rem 0 0;
+}
+
+.container, article {
+  margin: 0rem auto 1rem auto;
+  padding: 0;
+  width: 80%;
+}
+
+article {
+  width: 50%;
+  margin: 0rem auto;
+}
+
+.card {
+  background-color: #FFFDFA;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid #f385ff;
+  box-shadow: -3px 3px 6px rgba(89,121,40,0.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0 0 0 0.7rem;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0 1rem 0 0;
+}
+
+#avatar {
+  width: 15rem;
+}
+
+.icon {
+  width: 2rem;
+}
+
+/* Responsive */
+@media (min-width:768px) {
+    :root {
+        font-size: 16px;
+    }
+}
+@media (min-width:1024px) {
+    :root {
+        font-size: 18px;
+    }
+}
+@media (min-width:1280px) {
+    :root {
+        font-size: 20px;
+    }
+}
+
+/* Animations */
+@media (prefers-reduced-motion: reduce) {
+  a {
+    transition: none;
+  }
+}
