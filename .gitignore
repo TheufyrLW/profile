@@ -50,7 +50,7 @@ tsconfig.tsbuildinfo
 docker-compose.override.yml
 
 ### Apache ###
-*.ht*
+.ht*
 
 ### PHP ###
 vendor/
